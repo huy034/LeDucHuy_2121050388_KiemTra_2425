@@ -15,5 +15,6 @@ namespace MVCPROJECT.Data
         }
 
         public DbSet<MVCMOVIE.Model.Person> Person { get; set; } = default!;
+        public DbSet<MVCMOVIE.Model.TinhBP> TinhBP { get; set;} = default!;
     }
 }
